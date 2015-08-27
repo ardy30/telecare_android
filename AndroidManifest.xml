@@ -1,0 +1,152 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ebti.mobile.dohtelecare"
+    android:versionCode="17"
+    android:versionName="1.91">
+
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="15" />
+
+   <permission
+        android:name="com.ebti.mobile.dohtelecare.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission
+        android:name="com.ebti.mobile.dohtelecare.permission.C2D_MESSAGE" />
+
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+   <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <supports-screens android:anyDensity = "true" android:xlargeScreens="true" android:normalScreens="true" android:smallScreens="false" android:largeScreens="true"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+
+
+    <application android:label="@string/app_name"
+        android:icon="@drawable/ic_launcher"
+        android:theme="@style/AppTheme">
+
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyDIgxXS5tgCfj7Bty4RSCervUlS533PHPI" />
+
+
+        <activity android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:configChanges="keyboard|keyboardHidden|orientation" android:screenOrientation="portrait"
+            android:name="com.ebti.mobile.dohtelecare.activity.LoginActivity">
+            <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+        </activity>
+
+        <activity android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:configChanges="keyboard|keyboardHidden|orientation" 
+            android:name="com.ebti.mobile.dohtelecare.activity.ForgotPasswordActivity"></activity>
+
+        <activity android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:configChanges="keyboard|keyboardHidden|orientation" 
+            android:name="com.ebti.mobile.dohtelecare.activity.RegisterAccountActivity"></activity>
+
+        <activity android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:configChanges="keyboard|keyboardHidden|orientation" 
+            android:name="com.ebti.mobile.dohtelecare.activity.RegisterActivity"></activity>
+
+        <activity android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:configChanges="keyboard|keyboardHidden|orientation" 
+            android:name="com.ebti.mobile.dohtelecare.activity.MainActivity"></activity>
+
+        <activity android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:name="com.ebti.mobile.dohtelecare.activity.BloodPressureActivity"></activity>
+
+        <activity android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:configChanges="keyboard|keyboardHidden|orientation" 
+            android:name="com.ebti.mobile.dohtelecare.activity.BloodGlucoseActivity"></activity>
+
+
+        <activity android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:configChanges="keyboard|keyboardHidden|orientation" 
+            android:name="com.ebti.mobile.dohtelecare.activity.QueryRecordDataActivity"></activity>
+
+        <activity android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:configChanges="keyboard|keyboardHidden|orientation" 
+            android:name="com.ebti.mobile.dohtelecare.activity.ModifyPasswordActivity"></activity>
+
+        <activity android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:configChanges="keyboard|keyboardHidden|orientation" 
+            android:name="com.ebti.mobile.dohtelecare.activity.LocalRecordDataActivity"></activity>
+
+        <activity android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:configChanges="keyboard|keyboardHidden|orientation" 
+            android:name="com.ebti.mobile.dohtelecare.activity.ServiceRecordDataActivity"></activity>
+
+        <activity android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:name="com.ebti.mobile.dohtelecare.activity.DrawGoogleChartActivity"></activity>
+
+        <activity android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:configChanges="keyboard|keyboardHidden|orientation" 
+            android:name="com.ebti.mobile.dohtelecare.activity.AboutAppActivity"></activity>
+
+         <activity android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:configChanges="keyboard|keyboardHidden|orientation" 
+            android:name="com.ebti.mobile.dohtelecare.activity.ManualInputActivity"></activity>
+
+         <activity android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:name="com.ebti.mobile.dohtelecare.activity.QueryLocalDataActivity"></activity>
+
+         <activity android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:configChanges="keyboard|keyboardHidden|orientation" 
+            android:name="com.ebti.mobile.dohtelecare.activity.KnowledgeActivity"></activity>
+
+         <activity android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:configChanges="keyboard|keyboardHidden|orientation" 
+            android:name="com.ebti.mobile.dohtelecare.activity.NewsActivity"></activity>
+
+         <activity android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:configChanges="keyboard|keyboardHidden|orientation" 
+            android:name="com.ebti.mobile.dohtelecare.activity.LocationActivity"></activity>
+
+         <activity android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:configChanges="keyboard|keyboardHidden|orientation" 
+            android:name="com.ebti.mobile.dohtelecare.activity.OpinionActivity"></activity>
+
+         <activity android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:name="com.ebti.mobile.dohtelecare.activity.LocationListActivity"></activity>
+
+         <activity android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:configChanges="keyboard|keyboardHidden|orientation" 
+            android:name="com.ebti.mobile.dohtelecare.activity.HintSetActivity"></activity>
+
+        <service android:enabled="true" android:name="com.ebti.mobile.dohtelecare.service.GetBlueToothDeviceDataService" />
+        <service android:enabled="true" android:name="com.ebti.mobile.dohtelecare.service.MainService" />
+
+
+        <receiver android:name="com.ebti.mobile.dohtelecare.gcm.GCMReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+      <intent-filter>
+        <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+        <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+        <category android:name="com.ebti.mobile.dohtelecare" />
+      </intent-filter>
+    </receiver>
+    <service android:name="com.ebti.mobile.dohtelecare.gcm.GCMIntentService" />
+    </application>
+
+</manifest>

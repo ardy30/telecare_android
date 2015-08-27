@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="hdpi_fontsize3">14sp</dimen>
+    <dimen name="hdpi_fontsize">16sp</dimen>
+    <dimen name="hdpi_fontsize4">18sp</dimen>
+    <dimen name="hdpi_fontsize2">20sp</dimen>
+    <dimen name="hdpi_titlefontsize">20sp</dimen>
+    <dimen name="xhdpi_fontsize">24sp</dimen>
+    <dimen name="xhdpi_fontsize4">22sp</dimen>
+    <dimen name="xhdpi_fontsize3">18sp</dimen>
+    <dimen name="xhdpi_fontsize2">16sp</dimen>
+    <dimen name="hdpi_btnwidth">140sp</dimen>
+    <dimen name="hdpi_btnheight">60sp</dimen>
+    <dimen name="mdpi_btnwidth">130sp</dimen>
+    <dimen name="mdpi_btnheight">50sp</dimen>
+    <dimen name="ldpi_btnwidth">120sp</dimen>
+    <dimen name="ldpi_btnheight">40sp</dimen>
+    
+</resources>

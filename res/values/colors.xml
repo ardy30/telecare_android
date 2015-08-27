@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffff</color>  
+    <color name="main_click_color">#CAF644</color>  
+    <color name="dark">#000000</color>
+    <color name="red">#ff0000</color>
+    <color name="darkolivegreen2">#bcee68</color>
+    <color name="darkgray">#00caca</color>
+    <color name="redDark">#555555</color>
+    <!--===================color====================-->
+    <color name="text_color">#382e00</color>
+    <color name="green">#339900</color>
+    <color name="click_color">#CAF644</color>
+    <!-- 登出 背景點擊顏色 -->
+    <color name="logout_color">#222222</color>
+    <color name="logout_pressed_color">#CAF644</color>
+    <!-- 登出 修改密碼點擊顏色 -->
+    <color name="modifypassword_color">#222222</color>
+    <color name="modifypassword_clidk_color">#CAF644</color>
+    <!-- 登出 返回點擊顏色 -->
+    <color name="back_color">#222222</color>
+    <color name="back_clidk_color">#CAF644</color>
+    <color name="service_place_color">#4B782A</color>
+</resources>

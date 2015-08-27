@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- =======================登入頁=================== -->
+  <string name="email_sample"></string>
+  <string name="account_string">帳號</string>
+  <string name="password_string">密碼</string>
+  <string name="save_account_and_pwd">儲存帳號密碼</string>
+  <string name="graph_description">折線</string>
+  <string name="no_id_description">若無ID訊息</string>
+  <string name="project">\&#064;2013衛生福利部 遠距健康照護計畫專案辦公室\n聯絡電話：(02)2552-7782</string>
+  <string name="register"><u>註冊</u></string>
+  <string name="registertitle">註冊</string>
+  <string name="copyright1">\&#169;2013衛生福利部</string>
+  <string name="copyright2">遠距健康照護計畫專案辦公室</string>
+  <string name="copyright3">諮詢專線：(02)2552-7782</string>
+  <string name="account_hint"></string>
+  <string name="doh_takecareyou">衛生福利部關心您</string>
+  <string name="menu_autoupload">自動上傳</string>
+  <string name="menu_news">最新消息</string>
+  <string name="menu_manuialupload">手動上傳</string>
+  <string name="menu_healthknowledge">健康新知</string>
+  <string name="menu_locaalquery">本機查詢</string>
+  <string name="menu_cloudquery">雲端查詢</string>
+  <string name="menu_location">服務據點</string>
+  <string name="menu_otherlocation">其他據點</string>
+  <string name="menu_notify">提醒設定</string>
+  <string name="menu_opinion">意見回饋</string>
+  <string name="forget_password"><u>忘記密碼</u></string>
+  <string name="line_separate"><u>&#160;|&#160;</u></string>
+  <string name="logout">登出</string>
+  <string name="charttitle">趨勢圖</string>
+  <string name="mindistance_hint">最近據點：</string>
+  <!--註冊Popup view-->
+  <string name="register_message_string">歡迎 您 申請遠距健康照護服務</string>
+  <string name="email">帳號:</string>
+  <string name="password">密&#160;&#160;&#160;&#160;碼:</string>
+  <string name="check_password">確認密碼:</string>
+  <!-- @author james -->
+  <string name="reg_page1">1 &#047; 2</string>
+  <string name="reg_page2">2 &#047; 2</string>
+  <string name="reg_sex">性&#160;&#160;&#160;&#160;&#160;&#160;別:</string>
+  <string name="reg_phone">電&#160;&#160;&#160;&#160;&#160;&#160;話:</string>
+  <string name="reg_live">居住縣市:</string>
+  <string name="reg_birthday">生&#160;&#160;&#160;&#160;&#160;&#160;日:</string>
+  <string name="reg_rbFemale">女</string>
+  <string name="reg_rbMale">男</string>
+  <string name="reg_birthdayHint">&#160;&#160;&#160;請  輸  入  生  日</string>
+  <string name="reg_phoneHint">請  輸  入  電  話</string>
+  <string name="reg_liveHint"> 請  輸  入  縣  市</string>
+  <string name="reg_birthEmpty">請輸入您的生日。</string>
+  <string name="reg_phoneEmpty">請輸入您的電話號碼。</string>
+  <string name="reg_phoneErr">電話號碼不可有英文</string>
+  <string name="reg_loadArea">資料讀取中請稍後。。。</string>
+  <string name="networkDisconnect">請先連上網路再試一次。</string>
+  <string name="reg_catchAreaDataErr">無法正確取得縣市資料，請再試一次</string>
+  <string name="reg_jsonParseErr">解析縣市資料發生錯誤，請再試一次</string>
+  <string name="bloodpress_title">血壓數據</string>
+  <string name="bloodsugar_title">血糖數據</string>
+  <string name="modifypassword_title">會員修改密碼</string>
+  <string name="modifypassword">修改密碼</string>
+  <!--忘記密碼-->
+  <string name="account">帳號:</string>
+  <string name="query_password_submit">查 詢</string>
+  <string name="reget_password">密碼查詢</string>
+  <string name="comment_reget_password_1">密碼將傳送至您的信箱。</string>
+  <string name="comment_reget_password_2">請儘速更改密碼，以維護帳號安全。</string>
+  <string name="location_list_button">其他據點</string>
+  <!--========================首頁====================-->
+  <string name="app_name">一點通</string>
+  <string name="title">衛生福利部關心您</string>
+  <string name="user_description">使用者頭像</string>
+  <string name="message_area_description">訊息區域</string>
+  <string name="message_point_description">訊息點</string>
+  <string name="logo_description">logo</string>
+  <string name="auto_connect_description">自動連結功能說明</string>
+  <string name="use_keyin_string">手動輸入上傳</string>
+  <string name="liner_description">分格線</string>
+  <string name="status_trial_user">試用會員</string>
+    <string name="status_trsc_user">正式會員</string>
+    <string name="slogan">歡迎使用本軟體</string>
+
+    <!--========================血糖頁面==========================-->
+    <string name="please_keyin_blood_glucose_description">請輸入血糖量測結果</string>
+    <string name="before">飯前</string>
+    <string name="after">飯後</string>
+    <string name="usually">隨機</string>
+    <string name="blood_glucose_string">血糖</string>
+    <string name="hdpi_blood_glucose_string">血&#160;&#160;糖</string>
+    <string name="blood_glucose_unit">mg/dL</string>
+    <string name="record_date">時間</string>
+    <string name="hdpi_record_date">時&#160;&#160;間</string>
+    <string name="please_select_record_time">請輸入量測日期</string>
+    <string name="check_string">確認</string>
+
+
+    <!--========================血壓頁面============================-->
+    <string name="please_keyin_blood_pressure_description">請輸入血壓量測結果</string>
+    <string name="blood_pressure_string_description">血壓</string>
+    <string name="systolic_blood_pressure">收縮壓</string>
+    <string name="diastolic_blood_pressure">舒張壓</string>
+    <string name="pulse">脈搏</string>
+    <string name="hdpi_pulse">脈&#160;&#160;搏</string>
+    <string name="blood_pressure_unit">mmHg</string>
+    <string name="pulse_unit">次數/分鐘</string>
+    <string name="blood_input_title">請輸入血壓量測結果</string>
+    <string name="blood_manuialupload">手動上傳</string>
+    <!--========================數據查詢==========================-->
+    <string name="queryrecorddata">雲端量測趨勢查詢</string>
+    <string name="querylocaldata">本機量測記錄查詢</string>
+    <string name="please_choose_date_description">請輸入查詢日期</string>
+    <string name="server_record_devicename">資料類型</string>
+    <string name="bluetooth_header_data">量測數據</string>
+    <string name="upload_status">上傳狀態</string>
+    <string name="no_data">查無資料</string>
+    <string name="local_data_not">數據顯示為「未上傳」之資料，\n將於下次網路連線時自動上傳至雲端系統</string>
+    <string name="bp_data_default">收縮壓標準範圍:90~140\n舒張壓標準範圍:60~90\n脈搏標準範圍:60~100</string>
+    <string name="bg_data_default">飯前血糖標準範圍:70~99\n飯後血糖標準範圍: &lt; 140</string>
+    <!--========================修改密碼===========================-->
+    <string name="modify_password_description">會員密碼修改</string>
+    <string name="modify_password_button_string">修 改\n密 碼</string>
+    <string name="old_password">舊密碼:</string>
+    <string name="new_password">新密碼:</string>
+    <string name="comment_for_account_1">請輸入有效之郵件信箱，</string>
+    <string name="comment_for_account_2">此信箱即為往後使用之帳號。</string>
+    <string name="comment_for_password_1">密碼長度必須為 6-15字元，</string>
+    <string name="comment_for_password_2">並且包含至少一個字母和一個數字。</string>
+    <string name="comment_for_password_3"></string>
+
+    <!--========================關於本軟體===========================-->
+    <string name="about_app">關於本軟體</string>
+    <string name="about_app_no1">1.本軟體由衛生福利部設計開發</string>
+    <string name="about_app_no2">2.Android版支援生理量測設備清單如下:</string>
+    <string name="about_app_no2_1">泰博:\n福爾益康2合1血糖/血壓計 FORA D40</string>
+    <string name="about_app_no2_2">五鼎:\n欣聲血糖計 GlucoSure Voice2</string>
+    <string name="about_app_no2_3">百略:\n威爾舒血壓計 Watch BP home</string>
+  <string name="about_app_no2_4">國立陽明大學:\nXenonblue血壓計</string>
+  <!--========================健康新知===========================-->
+  <string name="hint_loading_error">資料讀取失敗，請重新再試。</string>
+  <string name="hint_setting_error">資料設定失敗，請重新再試。</string>
+  <string name="hint_setting_success">資料設定成功!!</string>
+  <string name="hint_nonetwork_error">此功能需使用網路，請確認網路狀態重新進入再試</string>
+  <string name="webview_loading_body">資料讀取中...</string>
+  <string name="webview_loading_title">一點通</string>
+  <string name="webview_error_pageURL">file:///android_asset/errpage.htm</string>
+  <!--訊息-->
+  <string name="cannt_link_server">伺服器或網路忙碌中，請稍後再試！建議您檢查網際網路連線！</string>
+  <string name="cannt_link_server2">伺服器發生問題！請重新連線再試！若依舊無法登入請聯絡廠商。</string>
+
+  <string name="exceptional_hint">量測異常值通知</string>
+  <string name="nomeasure_hint">未量測通知</string>
+  <string name="hint_title">提醒設定</string>
+  <string name="hint_advoice">注意：使用本功能時，手機需要隨時保持網路連線狀態，部分手機設定與省電軟體，將使待機狀態下關閉網路，而無法獲得提示訊息！</string>
+</resources>
